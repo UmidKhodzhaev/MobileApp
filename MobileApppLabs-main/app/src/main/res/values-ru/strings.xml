@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="notes_kits_title">Наборы заметок</string>
+    <string name="tasks_list_title">Задачи</string>
+    <string name="select_date_title">Выбор времени</string>
+    <string name="select_location_title">Выбор места</string>
+    <string name="empty" />
+    <string name="category_name_enter_hint">Название…</string>
+    <string name="add_button_text">Добавить</string>
+    <string name="task_title_fill">Новая задача</string>
+    <string name="status_field">Статус:</string>
+    <string name="subject_field">Предмет:</string>
+    <string name="date_field">Дата:</string>
+    <string name="status_fill">Новый статус</string>
+    <string name="subject_fill">Новый предмет</string>
+    <string name="date_fill">00:00 01.01.2022</string>
+    <string name="update_button">Изменить</string>
+    <string name="delete">УДАЛИТЬ</string>
+    <string name="deadline_field">Дедлайн:</string>
+    <string name="location_fill">Красноярск</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut tristique odio, et faucibus massa. Pellentesque sit amet arcu ut est ullamcorper rhoncus. Cras ut nibh nulla. Suspendisse elit ante, dignissim et massa quis, iaculis iaculis magna. Curabitur vitae dolor ut neque imperdiet pharetra. Nullam felis lorem, viverra nec leo in, sollicitudin tempor neque. Nulla non euismod ex, id tristique nisl.
+Duis sit amet urna eu lacus tempor porta. Mauris felis velit, vulputate id pharetra nec, maximus quis nulla. Cras vel sapien purus. Vestibulum non nibh pulvinar, venenatis elit at, rhoncus felis. Nullam vel massa non ex suscipit facilisis vitae sed ipsum. Aenean aliquet elit lectus, eu rutrum justo tempus vitae. Morbi tincidunt libero eget lacus mattis efficitur. Suspendisse pretium condimentum velit at ultricies. Morbi elementum vulputate velit id ullamcorper. Fusce vestibulum tempor dui eget egestas. Sed fringilla purus at cursus rutrum. Mauris pretium non tellus gravida laoreet. Curabitur volutpat lacus congue, posuere dolor facilisis, lacinia metus. Nulla nec varius enim. Sed sed ante maximus, blandit enim nec, ultrices risus.
+Nullam consequat leo nisl, quis faucibus libero tempor id. Duis vitae magna id leo tincidunt facilisis vitae a turpis. Phasellus gravida dui pharetra libero imperdiet, nec viverra dui venenatis. Vivamus bibendum erat nec diam efficitur varius. Sed consectetur sapien purus, suscipit suscipit lorem vulputate sed. Proin quis finibus libero. Nulla porttitor libero a posuere finibus. Etiam tempus sapien quis consectetur aliquam. Sed vestibulum, elit id porta facilisis, augue dui condimentum risus, in auctor magna orci sed lorem. Donec tristique lacinia varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean consequat malesuada tortor in consectetur. Etiam accumsan leo ipsum, ac cursus diam fringilla a.
+Vestibulum pulvinar porttitor mi, ut interdum nisl tristique eget. Sed quis nibh enim. Vivamus pellentesque nunc vitae nisl venenatis, ut sagittis ipsum egestas. Etiam ac velit id dui ultrices molestie. Phasellus sollicitudin urna vel justo condimentum maximus. Nulla commodo diam ante, non suscipit eros scelerisque sit amet. Integer non sapien non magna dictum congue.
+Praesent id nisl rhoncus, fermentum nisi quis, vulputate enim. Cras at feugiat neque, at euismod est. Donec ullamcorper sapien tincidunt odio pellentesque ultricies. Fusce convallis purus ac velit viverra, id dapibus sapien efficitur. Proin quis accumsan nulla. Nunc faucibus nisl venenatis, elementum dui ac, pulvinar turpis. Integer tempor nibh libero. Aliquam et felis at felis lobortis ullamcorper. Maecenas volutpat id nunc vel venenatis. Sed blandit volutpat accumsan. Praesent neque felis, consequat a eros sed, pulvinar aliquam arcu. Nulla egestas ex in augue accumsan vestibulum. Ut ut eros vitae quam euismod iaculis et sed lorem.
+    </string>
+    <string name="lorem_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut tristique odio, et faucibus massa. Pellentesque sit amet arcu ut est ullamcorper rhoncus.</string>
+    <string name="comment_edit_hint">Введите ваши заметки...</string>
+    <string name="empty_list">Список пуст</string>
+    <string name="unknown_error_message">Unknown Error!</string>
+    <string name="remote_error_message">Remote Error!</string>
+    <string name="network_error_message">Network Error!</string>
+</resources>

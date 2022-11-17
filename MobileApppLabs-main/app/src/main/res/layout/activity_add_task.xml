@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewTask">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/add_task_title"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@color/teal_200"
+            android:gravity="center_vertical"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/task_title_fill"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_500"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/add_task_date_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/date_field"
+                    android:textAllCaps="false"
+                    android:textColor="#263238"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/add_task_deadline_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/deadline_field"
+                    android:textAllCaps="false"
+                    android:textColor="#263238"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/add_task_status_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/status_field"
+                    android:textAllCaps="false"
+                    android:textColor="#263238"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/add_task_subject_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/subject_field"
+                    android:textAllCaps="false"
+                    android:textColor="#263238"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/add_task_location_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="Место:"
+                    android:textAllCaps="false"
+                    android:textColor="#263238"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/add_task_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/date_fill"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/add_task_deadline"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/date_fill"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/add_task_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/status_fill"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/add_task_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/subject_fill"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/add_task_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/location_fill"
+                    android:textColor="#000000" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/add_task_comment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue_gray_100">
+
+            <TextView
+                android:id="@+id/add_task_comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/comment_edit_hint"
+                android:inputType="textMultiLine|textImeMultiLine"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:text="@string/lorem"
+                android:textColor="#455A64" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
